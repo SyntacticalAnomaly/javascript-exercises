@@ -5,7 +5,7 @@ const removeFromArray = function(inputArray, ...args) {
     for (let j=0;j<argsLength;j++) {
       if (inputArray[i] === args[j]) {
         inputArray.splice(i, 1);
-        i--
+        i--;
       }
     }
   }
